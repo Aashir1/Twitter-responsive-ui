@@ -1,0 +1,608 @@
+body{
+    background-color: #e6ecf0;
+}
+.navbar-default .navbar-nav>li>a{
+    font-weight: bold;
+    height: 100%;
+}
+.navbar-default .navbar-nav{
+        position: relative;
+    left: 80px;
+}
+.navbar-default{
+    margin: 0px;
+    /*height: 55px;*/
+}
+
+.navbar-default .container-fluid{
+    padding-left:0px;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active{
+    color: #7FDBB6;
+    border-bottom: 2px solid #7FDBB6;;
+    transition: border 0.25s, color 0.25s; 
+    background-color: #fff;
+    }
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: #fff;
+}
+.navbar-default .navbar-nav{
+    height: 48px;
+}
+.navbar-default .navbar-nav>li,
+.navbar-default .navbar-nav>li>a{
+    height: 48px;   
+}
+.my-navbar{
+    background-color: white;
+}
+.my-img{
+        width: 21px;
+    position: relative;
+    left: 344px;
+    margin-top: 16px;
+}
+
+.input-group-btn>.btn{
+        border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    background-color: #f5f8fa;
+}
+.input-group>.form-control{
+        border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    background-color: #f5f8fa;
+}
+.input-group>.form-control:focus,
+.container-fluid>.navbar-form:focus{
+    background-color: white;
+    box-shadow: none;
+    transition: background-color 0.25s;
+    border: 1px solid #f5f8fe;
+}
+
+.container-fluid>.navbar-form{
+    height: 32px;
+    width: 470px;
+}
+.btn-my-adding{
+    font-weight:bold;
+    border-radius:100px;
+    background-color:#7FDBB6;
+    border-color: transparent;
+        width: 72px;
+    height: 32px;
+}
+.btn-my-adding:hover,
+.btn-my-adding:active,
+.btn-my-adding:focus{
+   
+    border-color: transparent;
+     background-color:hsla(156, 56%, 68%,0.8);
+}
+.input-group>.form-control,
+.input-group-btn>.btn{
+
+}
+.container-fluid>.img-circle{
+    margin-left: 21px;
+}
+.container-fluid>.btn-my-adding{
+    margin-left: 17px;
+}
+.input-group-btn>.btn-default{
+    border: 0px;
+    height: 34px;
+}
+.input-group>.form-control{
+    border: 0px;
+}
+@media screen and (max-width : 990px){
+    .container-fluid>.navbar-form{
+        width: 230px;
+    }
+}
+
+@media screen and (min-width: 768px){
+        .small-nav{
+            display: none;
+        }
+       
+    }
+.small-nav{
+    min-width:266px;
+    max-width: 768px;
+        height: 55px;
+    box-shadow: 0px 0px 5px lightgrey;
+}
+.small-nav-btn{
+        margin-left: 20px;
+    margin-top: 16px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background-color: #ABEBC6    ;
+    font-weight: bold;
+    width: 74px;
+    height: 33px;
+}
+.small-nav-btn:hover{
+    background-color: #D0ECE7 ; 
+    transition: background-color 0.25s;
+}
+.small-nav-right{
+    float: right;
+}
+.small-nav-img{
+        width: 32px;
+    height: 32px;
+        margin-top: 16px;
+    margin-right: 20px;
+}
+@media screen and (max-width: 767px){
+    .my-navbar{
+        border: 0px;               
+    }
+    .my-navbar>.container-fluid{
+         height: 0px;
+    }
+     .navbar-ul{
+         
+        margin-top: 56px;
+        margin-left: -80px;
+        display: none;
+        min-width: 266px;
+        max-width: 767px;
+        }
+}
+.showing{
+    
+        display: block;
+    
+}
+div.body{
+        height: 1677px;
+    
+    padding-top: 10px;
+    margin: 0px auto;
+    width: 1188px;
+}
+.col-1-1{
+    width: 290px;
+    height: 209px !important;
+       border: 1px solid #e6ecf0;
+       margin-bottom: 10px;
+}
+.anker-img{
+    width: 100%;
+    height: 95px;
+    
+}
+.image{
+    width: 288px;
+    height: 95px;
+}
+.profile-info{
+    height: 113px;
+    width: 288px;
+    background-color: #fff;
+
+}
+.profile-info-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    margin: -30px 0 0 8px;
+    box-sizing: border-box;
+
+}
+.name-link{
+    display: inline-block;
+    width: 185px;
+    height: 41px;
+}
+.profile-info .name-link{
+    
+    top: 150px;
+    left: 91px;
+}
+.name-link>a:hover{
+        text-decoration: underline;
+    color: #000;
+}
+.profile-name{
+    
+    font-size: 18px;
+    font-weight: bold;
+    font-style: none;
+    color: #000;
+    line-height: 25px;
+
+}
+.tweets-followers>ul>li{
+    list-style: none;
+    display: inline-block;
+}
+.tweets-followers>ul>li>a{
+    text-decoration: none;
+}
+
+.tweets-followers>ul>li{
+    width: 87px;
+    height: 33px;
+}
+.tweets-followers>ul>li.first-li{
+    width: 74px;
+    height: 33px;
+}
+.tweets-followers>ul{
+    margin: 0px;
+    padding: 0px;
+}
+.tweets-followers{
+    height: 65px;
+    padding: 5px 16px 16px 16px;
+    position: relative;
+    top: 3px;
+    
+}
+.tweets-followers>ul>li>a>span.quantity{
+    padding-top: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #7FDBB6;
+}
+.tweets-followers>ul>li>a>span{
+    font-size: 12px;
+    font-weight: bold;
+    color: #657786;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+}
+
+.tweets-followers>ul>li>a:hover{
+    color: #7FDBB6 ;
+}
+.tweets-followers>ul>li>a{
+        font-size: 12px;
+    font-weight: bold;
+    color: #657786;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+}
+.col-12-stuff{
+    width: 290px;
+    height: 433px;
+    background-color: #fff;
+        padding: 15px;
+    border: 1px solid #e6ecf0;
+}
+.col-12-stuff>.top>.heading{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.col-12-stuff>.top>span>a{
+    color:#7FDBB6 ;
+}
+.col-12-stuff>ul{
+        margin: 0px;
+    padding: 0px;
+}
+.top{
+    margin-bottom: 10px;
+}
+.col-12-stuff>ul>li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.col-12-stuff>ul>li>a{
+    font-weight: bold;
+    color: #7FDBB6;
+    text-decoration: none;
+    
+}
+.col-12-stuff>ul>li>a>div{
+    text-decoration: none !important;
+    font-weight: normal;
+    color: #657786;
+    font-size: 12px;
+    line-height: 16px;
+}
+.after{
+    background-color: #FFF;
+    z-index: 10000;
+}
+.col-1{
+    float: left;
+}
+.dp-image{
+        width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+.user-search-form{
+    background-image: url(images/icon1.png);
+    background-repeat: no-repeat;
+    background-position-x: 470px;
+    background-position-y: 5px;
+    width: 506px;
+    height: 36px;
+    border-radius: 100px;
+    border: 1px solid #EBF5FB;
+    padding: 8px 31px 8px 16px
+}
+input[type="text"].user-search-form::-webkit-input-placeholder{
+    color: #7FDBB6;
+}
+.center-div1{
+
+    width: 588px;
+    height: 58px;
+    padding: 10px 5px 10px 26px;
+    background-color: #F2FBF7;
+}
+.center-col{
+    float: left;
+    margin: 0px 10px;
+}
+.center-div2{
+    width: 588px;
+    height: 40px;
+    text-align: center;
+    color: #7FDBB6;
+    background-color: #f5f8fa;
+    border-top: 1px solid #e6ecf0;
+    border-bottom: 1px solid #e6ecf0;
+    padding: 8px 0px;
+    font-size: 14px;
+}
+.div-col3{
+    height: 109px;
+    background-color: white;
+    padding: 9px 12px;
+    border-bottom: 1px solid #e6ecf0;
+}
+.mufti-ismail-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+}
+.div-col3-image{
+    float: left;
+}
+.div-col3-content{
+    float: left;
+    width: 506px;
+    height: 90px;
+}
+.mufti-ismail-link>a>.user-name{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+.mufti-ismail-link>a{
+    text-decoration: none;
+}
+.mufti-ismail-img{
+    margin-right: 10px;
+}
+.mufti-ismail-link>a>.tick{
+    width: 12px;
+}
+.mufti-ismail-link>a>.user-name-agy,
+.mufti-ismail-link>a>.user-name-agy>.hour{
+    color: #657786;
+}
+.mufti-ismail-link>a:hover{
+    text-decoration: none;
+
+}
+.mufti-ismail-link>a>.user-name:hover,
+.mufti-ismail-link>a>.user-name-agy>.hour:hover{
+    color: #7FDBB6;
+    text-decoration-line: underline;
+}
+.fa-angle-down{
+    font-size: 20px;
+    color: darkgrey;
+    position: relative;
+    left: 230px;
+}
+.mufti-ismail-link>a>.fa-angle-down:hover{
+     color: #7FDBB6;
+}
+.mufti-ismail-link>p{
+        width: 506px;
+    height: 40px;
+    float: left;
+
+}
+/*.status>a>span>.comment-img{
+    width: 18px;
+    height: 18px;
+}
+.status>a>span>.retweet-img{
+    width: 30px;
+}
+.status>a>span>.like-img{
+        width: 22px;
+}*/
+div.status>a>span.g,{
+    color: #657786;
+    font-size: 12px;
+    font-weight: bold;
+}
+.status>a>span.gray{
+    color: #657786;
+}
+div.status>a.comment:hover,
+div.status>a>span.comment:hover,
+div.status>a>span.glyphicon-comment:hover{
+    text-decoration: none;
+    color: #2E86C1  ;
+}
+div.status>a.retweet:hover,
+.status>a>span.glyphicon-retweet:hover{
+    text-decoration: none;
+    color: #239B56  ;
+}
+div.status>a.heart:hover,
+.status>a>span.glyphicon-heart:hover{
+    text-decoration: none;
+    color: #FF5733;
+}
+div.status>a.envelope:hover,
+.status>a>span.glyphicon-envelope:hover{
+    text-decoration: none;
+    color: #7FDBB6;
+}
+.status>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+    font-size: 12px;
+    width: 80px;
+    height: 18px;
+    margin-right: 40px;
+}
+.div-col32{
+    height: 626px;
+}
+p.div-col32-p{
+    height: 552.98px;
+    margin-bottom: 10px;
+
+}
+i.fa-angle-down-bilal{
+    left: 286px;
+}
+p.div-col32-p>img{
+    margin-top: 7px;
+}
+i.khi-alert,
+i.amazing-facts{
+    left: 248px;
+}
+.col-3{
+    float: left;
+    width: 290px;
+    height: 258px;
+    background-color: #fff;
+    border: 1px solid #e6ecf0;
+}
+.col-3-inner{
+    padding: 15px 15px 0px 15px;
+}
+div.who-to-follow{
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: bold;
+        margin-bottom: 8px;
+}
+div.who-to-follow>a{
+    font-weight: normal;
+    font-size: 12px;
+    color: #7FDBB6;
+}
+div.content-1{
+    width: 258px;
+    height: 61px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 8px;
+}
+div.mufti-ismail-link>button{
+    width: 89px;
+    height: 27px;
+    border-radius: 50px;
+    background-color: white;
+    color: #7FDBB6;
+    border: 1px solid #7FDBB6;
+    font-weight: bold;
+    font-size: 12px;
+    transition: background-color 0.25s;
+}
+div.mufti-ismail-link>button:hover{
+    background-color: #F7FFFF;
+}
+span.last-remove{
+        left: 14px;
+}
+div.col-3-inner-2{
+    width: 289px;
+    height: 107px;
+    border: 1px solid #e6ecf0;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+div.col-3-inner1{
+    float: left;
+}
+div.col-3-inner1>span{
+    padding: 4px 6px;
+}
+div.col-3-inner1>span>img{
+    width: 24px;
+    height: 24px;
+}
+div.col-3-right{
+    float: left;
+}
+div.col-3-right>strong{
+    color:#000;
+}
+div.col-3-right>span{
+    font-size: 12px;
+    color: #657786;
+}
+div>.col-3-inner-wrapper{
+    width: 258px;
+    height: 48px !important;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid lightgray;
+}
+div.col-3-inner-link>a{
+    font-size: 12px;
+    color: #7FDBB6;
+}
+div.col-3-inner-link>a:hover,
+p.first-para>a:hover{
+    color: #7FDBB6;
+}
+div.col-flexer{
+    width: 290px;
+    height: 137px;
+    border: 1px solid #e6ecf0;
+    background-color: #fff;
+}
+p.first-para>a,
+p.first-para{
+        font-size: 12px;
+    color: #657786;
+}
+p.first-para{
+   border-bottom: 1px solid lightgray;
+   padding: 15px; 
+}
+p.second-para>a{
+    font-size: 12px;
+    color: #7FDBB6;
+    padding: 15px;
+}
+@media screen and (max-width: 905px){
+    div.col-3{
+        display: none;
+    }
+}
+@media screen and (max-width : 608px){
+    div.col-1{
+        display: none;
+    }
+    div.center-col{
+        width: auto;
+    }
+}

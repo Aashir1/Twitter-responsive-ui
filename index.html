@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.js.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default my-navbar">
+        <div class="container-fluid">
+
+            <ul class="nav navbar-nav navbar-ul" id="nav-ul">
+                <li><a href="#" id="after1"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="#" id="after2"><span class="glyphicon glyphicon-bell"></span> Notification</a></li>
+                <li><a href="#" id="after3"><span class="glyphicon glyphicon-envelope"></span> Message</a></li>
+            </ul>
+            <a href="#"><img src="images/tlogo.png" class="my-img hidden-xs hidden-sm" alt="logo"></a>
+            <form class="navbar-form navbar-right" style="border:0px">
+                <div class="input-group ">
+                    <input type="text" class="form-control hidden-sm hidden-xs" placeholder="Search Twitter">
+                    <div class="input-group-btn hidden-sm hidden-xs">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                    <div class="container-fluid hidden-xs">
+                        <img src="images/dp.jpg" class="img-circle" alt="image" width="32" height="32">
+                        <button class="btn btn-success btn-my-adding">Tweet</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="small-nav">
+            <button class="small-nav-btn" onclick="toggleFunction()"><span class="menu">&#x2630;</span> Menu</button>
+            <span class="small-nav-right">
+                    <img src="images/dp.jpg" alt="display pic" class="img-circle small-nav-img img-right" >
+                </span>
+        </div>
+    </nav>
+    <div class="body">
+        <div class="col-1">
+            <div class="col-1-1">
+                <a href="#" class="anker-img"><img src="images/Bike.jpg" class="image" alt=""></a>
+                <div class="profile-info">
+                    <a href="#"><img src="images/dp1.jpg" alt="image" class="profile-info-img"></a>
+                    <div class="name-link">
+                        <a href="#" class="profile-name">AASHIR KHAN</a><br />
+                        <span style="color: #657786;">@<a href="#" style="color: #657786;">Aashirkhan</a></span>
+                    </div>
+                    <div class="tweets-followers">
+                        <ul>
+                            <li class="first-li">
+                                <a href="#">
+                                    Tweets<br />
+                                    <span class="quantity">456</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Following<br />
+                                    <span class="quantity">451</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Followers<br />
+                                    <span class="quantity">564</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-1-2">
+                <div class="col-12-stuff">
+                    <div class="top">
+                        <span class="heading">Trends</span>
+                        <span class="small"> . <a href="#">Change</a></span>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                #Parachnar
+                                <div>
+                                    @FVBnews is tweeting about this Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                #Parachnar
+                                <div>
+                                    @FVBnews is tweeting about this
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                #Parachnar
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                #Parachnar
+                                <div>
+                                    @FVBnews is tweeting about this Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                #Parachnar
+                                <div>
+                                    @FVBnews is tweeting about this
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                #Parachnar
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                #Parachnar
+                                <div>
+                                    @FVBnews is tweeting about this Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="center-col">
+            <div class="center-div1">
+                <img src="images/dp1.jpg" alt="display-pic" class="dp-image">
+                <input type="text" name="user-search" value="" class="user-search-form" placeholder="What's happening?">
+            </div>
+            <div class="center-div2">
+                View 75 new Tweets
+            </div>
+            <div class="div-col3">
+                <div class="div-col3-image">
+                    <img src="images/mufti-ismail.jpg" alt="mufti-ismail" class="mufti-ismail-img">
+                </div>
+                <div class="div-col3-content">
+                    <div class="mufti-ismail-link">
+                        <a href="#">
+                            <span class="user-name">Mufti Ismail Menk</span>
+                            <img src="images/tick.png" alt="image" class="tick">
+                            <span class="user-name-agy">@muftiismenk . <span class="hour">1hr</span></span>
+                            <i class="fa fa-angle-down" style="font-size:20px"></i>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sequi<br />, dolore! Sint odit
+                            quo provident voluptas in , architecto beatae distinctio .
+                        </p>
+                    </div>
+                    <div class="status">
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-comment gray"></span>
+                            18    
+                        </a>
+                        <a href="#" class="retweet">
+                            <span class="glyphicon glyphicon-retweet gray"></span>    
+
+                             18
+
+                        </a>
+                        <a href="#" class="heart">
+                            <span class="glyphicon glyphicon-heart gray"></span>
+                            18
+
+                        </a>
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-envelope gray"></span>   
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-col3">
+                <div class="div-col3-image">
+                    <img src="images/amazing-facts.jpg" alt="mufti-ismail" class="mufti-ismail-img">
+                </div>
+                <div class="div-col3-content">
+                    <div class="mufti-ismail-link">
+                        <a href="#">
+                            <span class="user-name">Amazing Facts</span>
+                            <!--<img src="images/tick.png" alt="image" class="tick">-->
+                            <span class="user-name-agy">@amazingfacts . <span class="hour">36m</span></span>
+                            <i class="fa fa-angle-down amazing-facts" style="font-size:20px"></i>
+                        </a>
+                        <p>
+                            Talent gets you far but hard work gets you to the top.
+                        </p>
+                    </div>
+                    <div class="status">
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-comment gray"></span>
+                            18    
+                        </a>
+                        <a href="#" class="retweet">
+                            <span class="glyphicon glyphicon-retweet gray"></span>    
+
+                             18
+
+                        </a>
+                        <a href="#" class="heart">
+                            <span class="glyphicon glyphicon-heart gray"></span>
+                            18
+
+                        </a>
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-envelope gray"></span>   
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-col3 div-col32">
+                <div class="div-col3-image">
+                    <img src="images/bilal.jpeg" alt="mufti-ismail" class="mufti-ismail-img">
+                </div>
+                <div class="div-col3-content">
+                    <div class="mufti-ismail-link">
+                        <a href="#">
+                            <span class="user-name">Dr Bilal Philips</span>
+                            <img src="images/tick.png" alt="image" class="tick">
+                            <span class="user-name-agy">@drbilal . <span class="hour">3hr</span></span>
+                            <i class="fa fa-angle-down fa-angle-down-bilal" style="font-size:20px"></i>
+                        </a>
+                        <p class="div-col32-p">
+                            “Is there any reward for good other than good?” <a href=""> #IOU </a> Cost for running free diploma
+                            section for 1 year, DONATE HERE <a href=""> https://goo.gl/LGq2kR </a>
+                            <img src="images/dr-bilal-img.jpg" alt="tweet" width="505.98px" height="505.98px">
+                        </p>
+                    </div>
+                    <div class="status">
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-comment gray"></span>
+                            18    
+                        </a>
+                        <a href="#" class="retweet">
+                            <span class="glyphicon glyphicon-retweet gray"></span>    
+
+                             18
+
+                        </a>
+                        <a href="#" class="heart">
+                            <span class="glyphicon glyphicon-heart gray"></span>
+                            18
+
+                        </a>
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-envelope gray"></span>   
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-col3 div-col32">
+                <div class="div-col3-image">
+                    <img src="images/karachi-alert.jpg" alt="mufti-ismail" class="mufti-ismail-img">
+                </div>
+                <div class="div-col3-content">
+                    <div class="mufti-ismail-link">
+                        <a href="#">
+                            <span class="user-name">Karachi Alert &#8482;</span>
+                            
+                            <span class="user-name-agy">@KhiAlerts . <span class="hour">24June</span></span>
+                            <i class="fa fa-angle-down khi-alert" style="font-size:20px"></i>
+                        </a>
+                        <p class="div-col32-p">
+                            Chand Dekhne Ke Liye Markazi Rouiyat-e-Hilal Committee Ka Ijlaas Mufti Muneeb-ur-Rehman Ki Sadarat Mein Kal Itwaar Ko Peshawar
+                            Mein Hoga.
+                            <img src="images/halal-commitee.jpg" alt="tweet" width="505.98px" height="505.98px">
+                        </p>
+                    </div>
+                    <div class="status">
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-comment gray"></span>
+                            18    
+                        </a>
+                        <a href="#" class="retweet">
+                            <span class="glyphicon glyphicon-retweet gray"></span>    
+
+                             18
+
+                        </a>
+                        <a href="#" class="heart">
+                            <span class="glyphicon glyphicon-heart gray"></span>
+                            18
+
+                        </a>
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-envelope gray"></span>   
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-col3">
+                <div class="div-col3-image">
+                    <img src="images/amazing-facts.jpg" alt="mufti-ismail" class="mufti-ismail-img">
+                </div>
+                <div class="div-col3-content">
+                    <div class="mufti-ismail-link">
+                        <a href="#">
+                            <span class="user-name">Amazing Facts</span>
+                            <!--<img src="images/tick.png" alt="image" class="tick">-->
+                            <span class="user-name-agy">@amazingfacts . <span class="hour">36m</span></span>
+                            <i class="fa fa-angle-down amazing-facts" style="font-size:20px"></i>
+                        </a>
+                        <p>
+                            Talent gets you far but hard work gets you to the top.
+                        </p>
+                    </div>
+                    <div class="status">
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-comment gray"></span>
+                            18    
+                        </a>
+                        <a href="#" class="retweet">
+                            <span class="glyphicon glyphicon-retweet gray"></span>    
+
+                             18
+
+                        </a>
+                        <a href="#" class="heart">
+                            <span class="glyphicon glyphicon-heart gray"></span>
+                            18
+
+                        </a>
+                        <a href="#" class="comment">
+                            <span class="glyphicon glyphicon-envelope gray"></span>   
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-3">
+            <div class="col-3-inner">
+                <div class="who-to-follow">
+                    Who to follow
+                    <a href="#">Refresh</a> .
+                    <a href="#">View all</a>
+                </div>
+                <div class="content-1">
+                    <div class="div-col3-image">
+                        <img src="images/bilal.jpeg" alt="mufti-ismail" class="mufti-ismail-img">
+                    </div>
+
+                    <div class="mufti-ismail-link">
+                        <a href="#">
+                            <span class="user-name">Karachi_Posts</span>
+                            <!--<img src="images/tick.png" alt="image" class="tick">-->
+                            <span class="user-name-agy">@karachi.... <span class="glyphicon glyphicon-remove"></span></span>
+                        </a>
+                        <button>
+                            Follow
+                        </button>
+                    </div>
+                </div>
+                <div class="content-1">
+                    <div class="div-col3-image">
+                        <img src="images/islamic.jpg" alt="mufti-ismail" class="mufti-ismail-img">
+                    </div>
+
+                    <div class="mufti-ismail-link">
+                        <a href="#">
+                            <span class="user-name">islamic_Peace</span>
+                            <!--<img src="images/tick.png" alt="image" class="tick">-->
+                            <span class="user-name-agy">@karachi.... <span class="glyphicon glyphicon-remove"></span></span>
+                        </a>
+                        <button>
+                            Follow
+                        </button>
+                    </div>
+                </div>
+                <div class="content-1" style="border-bottom:0px">
+                    <div class="div-col3-image">
+                        <img src="images/islmic2.jpg" alt="mufti-ismail" class="mufti-ismail-img">
+                    </div>
+
+                    <div class="mufti-ismail-link">
+                        <a href="#">
+                            <span class="user-name">Turkey_alert</span>
+                            <!--<img src="images/tick.png" alt="image" class="tick">-->
+                            <span class="user-name-agy">@karachi.... <span class="glyphicon glyphicon-remove last-remove"></span></span>
+                        </a>
+                        <button>
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3-inner-2">
+                <div class="col-3-inner-wrapper">
+                    <a href="#">
+                        <div class="col-3-inner1">
+                            <span>
+                        <img src="images/gmail.png" alt="gmail" >
+                    </span>
+                        </div>
+                        <div class="col-3-right">
+                            <strong>Find people you know</strong>
+                            <br />
+                            <span>improt your contacts from Gmail</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-3-inner-link">
+                    <a href="#">Connect other address books</a>
+                </div>
+            </div>
+            <div class="col-flexer">
+                <p class="first-para">
+                    &#169; 2017 Twitter 
+                    <a href="#">About Help</a>
+                    &nbsp;
+                    <a href="#">Terms Privacy</a>
+                    &nbsp;
+                    <a href="#">policy</a>
+                    &nbsp;
+                    <a href="#">Cookies </a>
+                    &nbsp;
+                    <a href="#">Ads</a>
+                    &nbsp;
+                    <a href="#">info</a>
+                    &nbsp;
+                    <a href="#">Brand Blog</a>
+                    &nbsp;
+                    <a href="#">Status</a>
+                    
+                    <a href="#">Apps Jobs</a>
+                    &nbsp;
+                    <a href="#">Businesses</a>
+                    &nbsp;
+                    <a href="#">Developers</a>
+                </p>
+                <p class="second-para">
+                    <a href="">
+                    <span class="glyphicon glyphicon-new-window"></span>
+                    Advertise with twitter
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="app.js">
+
+    </script>
+</body>
+
+</html>
